@@ -6,12 +6,14 @@ import Sidebar from './Sidebar';
 function App() {
   return (
     <div className="app">
-      <h1>Lets build Whatsapp Clone</h1>
-
-      {/* Sidebar Component */}
+      <div className='app__body'>
+        {/* Sidebar Component */}
         <Sidebar />
-        <Chat />
       {/* Chat Component */}
+        <Chat />
+      </div>
+
+      
     </div>
   );
 }
